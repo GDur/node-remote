@@ -2,7 +2,7 @@
 Node Remote is a nodejs project which offers a very simple way to create your own pc remote for various programs.
 Keep in mind that this is a very simple approach to a create remotes
 - basically: when you press a button, it will send a hotkey to a specific program
-- showcase: https://dl.dropboxusercontent.com/u/8938703/workspace/nodejs/node-remote/screenshots/node-remote-example.PNG
+- showcase: ![Image of Yaktocat](https://dl.dropboxusercontent.com/u/8938703/workspace/nodejs/node-remote/screenshots/node-remote-example.PNG)
 
 # currently supported node-remotes
   - Netflix.com
@@ -14,16 +14,18 @@ Keep in mind that this is a very simple approach to a create remotes
   - and it is easy to add more
   
 # How to install
-  - install nodejs https://nodejs.org/en/download/
+  - install [nodejs](https://nodejs.org/en/download/)
   - clone this repository or download .zip version
-  - download AutoHotkey.exe https://www.autohotkey.com/download/ahk-u32.zip
+  - download[AutoHotkey.exe](https://www.autohotkey.com/download/ahk-u32.zip)
   - extract the AutoHotkey.exe into the root folder
   - navigate to the root folder
   - open the command line (cmd)
-    - npm install
+  ```javascript
+    npm install
+  ```
 
 # How to use
-  - start server: run the start_node-remote.bat or cmd "node app.js"
+  - start server: run the "start_node-remote.bat" or cmd "node app.js"
   - open node-remote: use browser and go to "localhost:8888" or "youripadress:8888"
 
 # How it works
