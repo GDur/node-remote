@@ -1,8 +1,11 @@
 # node-remote
-Node Remote is a nodejs probject which offers a very simple way to create your own pc remote for various programs.
+Node Remote is a nodejs project which offers a very simple way to create your own pc remote for various programs.
+Keep in mind that this is a very simple approach to a create remotes
+- basically: when you press a button, it will send a hotkey to a specific program
+- showcase: https://dl.dropboxusercontent.com/u/8938703/workspace/nodejs/node-remote/screenshots/node-remote-example.PNG
 
-# currently supportet remotes
-  - Netflix
+# currently supported node-remotes
+  - Netflix.com
   - Youtube.com
   - VLC
   - Spotify
