@@ -1,6 +1,15 @@
 # node-remote
 Node Remote is a nodejs probject which offers a very simple way to create your own pc remote for various programs.
 
+# currently supportet remotes
+  - Netflix
+  - Youtube.com
+  - VLC
+  - Spotify
+  - Twitch.tv
+  - Emby (requires script: https://dl.dropboxusercontent.com/u/8938703/workspace/nodejs/node-remote/remote-userscripts/emby-node-remote.user.js)
+  - and it is easy to add more
+  
 # How to insall/use
   - install nodejs https://nodejs.org/en/download/
   - clone this repository or download .zip version
