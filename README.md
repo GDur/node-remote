@@ -13,7 +13,7 @@ Keep in mind that this is a very simple approach to a create remotes
   - Emby (requires script: https://dl.dropboxusercontent.com/u/8938703/workspace/nodejs/node-remote/remote-userscripts/emby-node-remote.user.js)
   - and it is easy to add more
   
-# How to insall
+# How to install
   - install nodejs https://nodejs.org/en/download/
   - clone this repository or download .zip version
   - download AutoHotkey.exe https://www.autohotkey.com/download/ahk-u32.zip
@@ -23,7 +23,7 @@ Keep in mind that this is a very simple approach to a create remotes
     - npm install
 
 # How to use
-  - start server: run the start_node-remote.bat   or cmd "node app.js"
+  - start server: run the start_node-remote.bat or cmd "node app.js"
   - open node-remote: use browser and go to "localhost:8888" or "youripadress:8888"
 
 # How it works
