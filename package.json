@@ -1,0 +1,8 @@
+{
+  "name": "node-remote",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jquery": "^2.1.4",
+    "material-design-lite": "^1.0.6"
+  }
+}

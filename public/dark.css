@@ -1,0 +1,67 @@
+
+button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent, .round {
+    display: block;
+    margin: 10px auto;
+}
+
+.mdl-layout__drawer-button .material-icons {
+    padding: 13px;
+}
+
+.mdl-layout__header,
+.mdl-layout__tab-bar-button,
+.mdl-layout__tab-bar {
+    background-color: rgb(50, 50, 50);
+}
+
+.mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 101, 179);
+}
+
+main.mdl-layout__content {
+    background: #232323;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button {
+    display: none;
+}
+
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active::after {
+    background: #ffffff;
+}
+
+.mdl-layout.is-upgraded .mdl-layout__tab-panel.is-active {
+    width: 101%;
+}
+
+.group button:first-child {
+    border-radius: 4px 0px 0px 3px;
+}
+
+.group button:last-child {
+    border-radius: 0px 4px 3px 0px;
+}
+
+.mdl-layout__tab-bar {
+    width: 100%;
+    padding: 0 0 0 0;
+}
+
+.group {
+    display: table;
+    margin: 0 auto !important;
+    vertical-align: -webkit-baseline-middle;
+}
+
+/*.group button.round {*/
+/*border-radius: initial !important;*/
+/*}*/
+
+/*.group button:not(.round) {*/
+.group button {
+    display: inline !important;
+    margin: 10px 1px !important;
+    /*border-radius: 0;*/
+}
+

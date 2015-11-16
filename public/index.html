@@ -1,0 +1,219 @@
+<html>
+<head>
+    <title>Node Remote</title>
+
+    <link async rel="stylesheet" href="material-design-lite/material.min.css">
+    <script async src="material-design-lite/material.min.js"></script>
+    <script src="jquery/dist/jquery.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dark.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">NodeRemote</span>
+        </div>
+        <!-- Tabs -->
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+            <a href="#scroll-tab-1" class="mdl-layout__tab is-active">VLC</a>
+            <a href="#scroll-tab-2" class="mdl-layout__tab">Emby</a>
+            <a href="#scroll-tab-3" class="mdl-layout__tab">Spotify</a>
+            <a href="#scroll-tab-4" class="mdl-layout__tab">Twitch</a>
+            <a href="#scroll-tab-5" class="mdl-layout__tab">Youtube</a>
+            <a href="#scroll-tab-6" class="mdl-layout__tab">Netflix</a>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Title</span>
+    </div>
+    <main class="mdl-layout__content">
+        <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+            <div class="page-content command-group" program="ahk_exe vlc.exe" color="#f48b00">
+                <div class="group">
+                    <button keys="p" icon="skip_previous">Prev</button>
+                    <button keys="space" class="round" icon="play_arrow">Play/Pause</button>
+                    <button keys="n" icon="skip_next">Next</button>
+                </div>
+                <div class="group">
+                    <button keys="control down,down,control up" icon="volume_down">Volume Down</button>
+                    <button keys="control down,up,control up" icon="volume_up">Volume Up</button>
+                    <button keys="m" icon="volume_mute">Mute</button>
+                </div>
+                <div class="group">
+                    <button keys="f11" icon="fullscreen">Toggle Fullscreen</button>
+                    <button keys="LWin down,shift down,right,shift up,LWin up" icon="swap_horiz">Swap Screen
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+            <div class="page-content command-group" program="Emby" color="#52B54B">
+                <button keys="space" class="round" icon="play_arrow">Play/Pause</button>
+                <div class="group">
+                    <button keys="control down,down,control up" icon="volume_down">Volume Down</button>
+                    <button keys="control down,up,control up" icon="volume_up">Volume Up</button>
+                </div>
+                <div class="group">
+                    <button keys="f11" icon="fullscreen">Toggle Fullscreen</button>
+                    <button keys="LWin down,shift down,right,shift up,LWin up" icon="swap_horiz">Swap Screen
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="scroll-tab-4">
+            <div class="page-content command-group" program="Twitch" color="#6441a5">
+                <button keys="space" class="round" icon="play_arrow">Play/Pause</button>
+                <div class="group">
+                    <button keys="down" icon="volume_down">Volume Down</button>
+                    <button keys="up" icon="volume_up">Volume Up</button>
+                    <button keys="PgUp" icon="volume_off">Unute</button>
+                    <button keys="PgDn" icon="volume_mute">Mute</button>
+                </div>
+                <div class="group">
+                    <button keys="f5" icon="refresh">Refresh</button>
+                    <button keys="alt down,r,alt up" icon="chat">Toggle Chat</button>
+                </div>
+                <div class="group">
+                    <button keys="f11" icon="fullscreen">Toggle Fullscreen</button>
+                    <button keys="alt down,t,alt up" icon="theaters">Toggle Fullscreen and Theatre</button>
+                    <button keys="LWin down,shift down,right,shift up,LWin up" icon="swap_horiz">Swap Screen</button>
+                </div>
+            </div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="scroll-tab-3">
+            <div class="page-content command-group" program="ahk_exe Spotify.exe" color="#1ed760">
+
+                <div class="group">
+                    <button keys="control down,down,control up" icon="volume_down">Volume Down</button>
+                    <button keys="control down,up,control up" icon="volume_up">Volume Up</button>
+                </div>
+                <div class="group">
+                    <button keys="control down,left,control up" icon="skip_previous">Prev</button>
+                    <button keys="space" class="round" icon="play_arrow">Play/Pause</button>
+                    <button keys="control down,right,control up" icon="skip_next">Next</button>
+                </div>
+                <div class="group">
+                    <button keys="control down,s,control up" icon="shuffle">Shuffle</button>
+                    <button keys="control down,r,control up" icon="repeat">Repeat</button>
+                </div>
+                <div class="group">
+                    <button keys="LWin down,down,LWin up" icon="fullscreen_exit">Fullscreen Exit</button>
+                    <button keys="LWin down,up,LWin up" icon="fullscreen">Fullscreen</button>
+                    <button keys="LWin down,shift down,right,shift up,LWin up" icon="swap_horiz">Swap Screen</button>
+                </div>
+            </div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="scroll-tab-5">
+            <div class="page-content command-group" program="YouTube -" color="#e62117">
+                <div class="group">
+                    <button keys="j" icon="replay_10">Prev</button>
+                    <button keys="left" icon="replay_5">Prev</button>
+                    <button keys="k" class="round" icon="play_arrow">Play/Pause</button>
+                    <button keys="right" icon="forward_5">Next</button>
+                    <button keys="l" icon="forward_10">Next</button>
+                </div>
+                <div class="group">
+                    <button keys="down" icon="volume_down">Volume Down</button>
+                    <button keys="up" icon="volume_up">Volume Up</button>
+                    <button keys="m" icon="volume_off">Toogle Mute</button>
+                </div>
+                <div class="group">
+                    <button keys="f" icon="fullscreen">Toggle Fullscreen</button>
+                    <button keys="LWin down,shift down,right,shift up,LWin up" icon="swap_horiz">Swap Screen
+                    </button>
+                </div>
+                <div class="group">
+                    <button keys="f5" icon="refresh">Refresh</button>
+                    <button keys="tab,shift down,tab,shift up,shift down,tab,shift up,shift down,tab,shift up,shift down,tab,shift up,shift down,tab,shift up,shift down,tab,shift up"
+                            icon="find_in_page">Find Youtube Player
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="mdl-layout__tab-panel" id="scroll-tab-6">
+            <div class="page-content command-group" program="Netflix" color="#FF0A16">
+                <div class="group">
+                    <button keys="left" icon="replay_10">Prev</button>
+                    <button keys="space" class="round" icon="play_arrow">Play/Pause</button>
+                    <button keys="right" icon="forward_10">Next</button>
+                </div>
+                <div class="group">
+                    <button keys="down" icon="volume_down">Volume Down</button>
+                    <button keys="up" icon="volume_up">Volume Up</button>
+                    <button keys="m" icon="volume_off">Toogle Mute</button>
+                </div>
+                <div class="group">
+                    <button keys="f" icon="fullscreen">Toggle Fullscreen</button>
+                    <button keys="LWin down,shift down,right,shift up,LWin up" icon="swap_horiz">Swap Screen
+                    </button>
+                </div>
+                <div class="group">
+                    <button keys="f5" icon="refresh">Refresh</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+
+<!--"F:\Dropbox\Public\workspace\nodejs\node-remote\node_modules\jquery\dist\jquery.min.js"-->
+<script type="text/javascript">
+    $(document).ready(function () {
+        function activateTab(tmpTab) {
+            $('.mdl-layout__tab-bar a').removeClass("is-active")
+            $('a[href=' + tmpTab + ']').addClass("is-active")
+
+            $(".mdl-layout__tab-panel").removeClass("is-active")
+            $(tmpTab).addClass("is-active")
+        }
+
+        activateTab(localStorage.tmpRemote)
+
+        $(".mdl-layout__tab").click(function () {
+            localStorage.tmpRemote = $(this).attr("href")
+        })
+
+        $(".command-group").each(function (index) {
+            var program = $(this).attr("program")
+            var color = $(this).attr("color")
+
+            var tabID = $(this).parent().attr("id");
+
+//            console.log(tabID)
+
+//            $('a[href=' + tabID + ']').find(".mdl-layout__tab.is-active::after").css("background", color)
+
+
+//            console.log($('a[href=' + tabID + ']'))
+            $(this).find("button").each(function (index) {
+
+                $(this).css("background-color", color)
+
+                if ($(this).hasClass("round"))
+                    $(this).addClass("mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--accent")
+                else
+                    $(this).addClass("mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent")
+
+                if ($(this).attr("icon")) {
+                    $(this).html('<i class="material-icons">' + $(this).attr("icon") + '</i>')
+                }
+//                <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+//                <i class="material-icons">add</i>
+
+                $(this).click(function () {
+                    var link = '/send?program=' + program + '&keys=' + $(this).attr("keys")
+                    console.log(link)
+                    $.get(link, function (list) {
+                    });
+                });
+            })
+        });
+    });
+</script>
+</body>
+</html>
