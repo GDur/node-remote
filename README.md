@@ -20,7 +20,8 @@ Keep in mind that this is a very simple approach to a create remotes
   - extract the AutoHotkey.exe into the root folder
   - navigate to the root folder
   - open the command line (cmd)
-  ```javascript
+  - 
+  ```
     npm install
   ```
 
