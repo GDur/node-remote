@@ -16,11 +16,9 @@ Keep in mind that this is a very simple approach to a create remotes
 # How to install
   - install [nodejs](https://nodejs.org/en/download/)
   - clone this repository or download .zip version
-  - download[AutoHotkey.exe](https://www.autohotkey.com/download/ahk-u32.zip)
+  - download [AutoHotkey.exe](https://www.autohotkey.com/download/ahk-u32.zip)
   - extract the AutoHotkey.exe into the root folder
-  - navigate to the root folder
-  - open the command line (cmd)
-  - 
+  - open the command line in the root folder (cmd)
   ```
     npm install
   ```
