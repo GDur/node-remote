@@ -4,6 +4,8 @@ Node Remote is a nodejs probject which offers a very simple way to create your o
 # How to insall/use
   - install nodejs https://nodejs.org/en/download/
   - clone this repository or download .zip version
+  - download AutoHotkey.exe https://www.autohotkey.com/download/ahk-u32.zip
+  - extract the AutoHotkey.exe into the root folder
   - navigate to the root folder
   - open the command line (cmd)
     - npm install
@@ -12,4 +14,4 @@ Node Remote is a nodejs probject which offers a very simple way to create your o
 
 # How it works
   - when you press a button on your node-remote it will send hotkeys to a specified window
-  - eg.: if a program like VLC has a space hotkey in order to toggle play/pause then the button can send this hotkey to VLC
+  - eg.: if a program such as VLC has a "space" hotkey which will toggle play/pause, then this remote button can send this hotkey to VLC
