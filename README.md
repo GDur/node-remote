@@ -10,7 +10,7 @@ Node Remote is a nodejs probject which offers a very simple way to create your o
   - Emby (requires script: https://dl.dropboxusercontent.com/u/8938703/workspace/nodejs/node-remote/remote-userscripts/emby-node-remote.user.js)
   - and it is easy to add more
   
-# How to insall/use
+# How to insall
   - install nodejs https://nodejs.org/en/download/
   - clone this repository or download .zip version
   - download AutoHotkey.exe https://www.autohotkey.com/download/ahk-u32.zip
@@ -18,8 +18,10 @@ Node Remote is a nodejs probject which offers a very simple way to create your o
   - navigate to the root folder
   - open the command line (cmd)
     - npm install
-    - node app.js    or use start_node-remote.bat
-  - go to localhost:8888 or youripadress:8888
+
+# How to use
+  - start server: run the start_node-remote.bat   or cmd "node app.js"
+  - open node-remote: use browser and go to "localhost:8888" or "youripadress:8888"
 
 # How it works
   - when you press a button on your node-remote it will send hotkeys to a specified window
