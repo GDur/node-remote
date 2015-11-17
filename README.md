@@ -11,7 +11,7 @@ Keep in mind that this is a very simple approach to a create remotes
   - Spotify
   - Twitch.tv
   - Emby (requires script: [Emby Node-Remote Script](https://dl.dropboxusercontent.com/u/8938703/workspace/nodejs/node-remote/remote-userscripts/emby-node-remote.user.js)
-  - - SoundCloud (requires script: [SoundCloud Node-Remote Script](https://dl.dropboxusercontent.com/u/8938703/workspace/nodejs/node-remote/remote-userscripts/soundcloud-node-remote.user.js)
+  - SoundCloud (requires script: [SoundCloud Node-Remote Script](https://dl.dropboxusercontent.com/u/8938703/workspace/nodejs/node-remote/remote-userscripts/soundcloud-node-remote.user.js)
   - and it is easy to add more
   
 # How to install
