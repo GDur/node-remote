@@ -2,7 +2,7 @@
 Node Remote is a nodejs/autohotkey project for Windows which offers a very simple way to create your own pc remote for various programs.
 Keep in mind that this is a very simple approach to a create remotes
 - basically: when you press a button, it will send a hotkey to a specific program
-- ![VLC](/screenshots/vlc-node-remote-example.png) ![netflix](/screenshots/netflix-node-remote-example.png) ![twitch](/screenshots/twitch-node-remote-example.png)
+![VLC](/screenshots/vlc-node-remote-example.png) ![netflix](/screenshots/netflix-node-remote-example.png) ![twitch](/screenshots/twitch-node-remote-example.png)
 
 # currently supported node-remotes
   - Netflix.com
@@ -19,10 +19,11 @@ Keep in mind that this is a very simple approach to a create remotes
   - clone this repository or download .zip version
   - download [AutoHotkey.exe](https://www.autohotkey.com/download/ahk-u32.zip)
   - extract the AutoHotkey.exe into the root folder
-  - open the command line in the root folder (cmd)
+  - open the command line (cmd) in the root folder  and run the following command:
   ```
     npm install
   ```
+  - (optional) For Emby and Soundcloud support install the Gresemonkey/Tampermonkey extension for your browser
 
 # How to use
   - start server: run the "start_node-remote.bat" or cmd "node app.js"
