@@ -3,6 +3,7 @@ Node Remote is a nodejs/autohotkey project for Windows which offers a very simpl
 Keep in mind that this is a very simple approach to a create remotes.
 - basically: when you press a button, it will activate the specific program and then send a hotkey
 - The program has to be activatable(it has to be an active Tab in the browser)
+
 ![VLC](/screenshots/vlc-node-remote-example.png) ![netflix](/screenshots/netflix-node-remote-example.png) ![twitch](/screenshots/twitch-node-remote-example.png)
 
 # currently supported node-remotes
